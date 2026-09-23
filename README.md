@@ -2,6 +2,9 @@
 
 An enterprise-grade, dark cyberpunk-themed **ASP.NET Web Forms (.NET Framework 4.8.1)** gaming ecommerce platform with direct **ADO.NET (`SqlConnection`, `SqlCommand`, `SqlDataReader`)** integration and **Zero-Session Cookie Authentication**.
 
+> 🤖 **Working with an AI Coding Agent?**  
+> Give your agent the copy-paste prompt in [`AI_AGENT_PROMPT.md`](./AI_AGENT_PROMPT.md) or direct it to [`AGENTS.md`](./AGENTS.md) for non-negotiable architectural rules (Zero Session, Direct ADO.NET, SQL Schema, Landing presentation).
+
 ---
 
 ## 🎮 Features
