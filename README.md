@@ -49,6 +49,18 @@ The SQL Server database (`GameStore`) consists of:
 5. **`[dbo].[order_items]`**: Line items per order with generated activation license keys.
 6. **`[dbo].[transaction_history]`**: Financial audit trail for all order payments and receipts.
 
+### 📦 Database Scripts Location
+
+All table creation scripts and seed data are included under the [`Database/`](./Database/) folder:
+- [`Database/setup_database.sql`](./Database/setup_database.sql): **All-in-one** script that creates the database, all 6 tables, primary/foreign key constraints, and seeds catalog games & default user.
+- [`Database/schema.sql`](./Database/schema.sql): Table definitions (DDL) and constraints.
+- [`Database/seed.sql`](./Database/seed.sql): Catalog games and test user seed records.
+
+Run `Database/setup_database.sql` in SQL Server Management Studio (SSMS) or via `sqlcmd`:
+```bash
+sqlcmd -S .\SQLEXPRESS01 -i Database\setup_database.sql
+```
+
 ---
 
 ## 🚀 Getting Started
