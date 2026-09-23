@@ -1,0 +1,36 @@
+<%-- ===================================================================
+     NEXUS PLAY GAMING STORE - ASP.NET THEMES & SKINS DEFINITION
+     Theme: Gaming
+     =================================================================== --%>
+
+<%-- Default Button & Input Skins --%>
+<asp:Button runat="server" CssClass="btn-store" />
+<asp:TextBox runat="server" CssClass="store-input-field" />
+
+<%-- Store Buy & Rent Action Button Skins --%>
+<asp:HyperLink runat="server" SkinID="BuyBtn" CssClass="btn-store btn-buy" />
+<asp:HyperLink runat="server" SkinID="RentBtn" CssClass="btn-store btn-rent" />
+
+<%-- Top Navigation Action Skins --%>
+<asp:HyperLink runat="server" SkinID="NavSignInBtn" CssClass="btn-ghost" />
+<asp:HyperLink runat="server" SkinID="NavJoinBtn" CssClass="btn-primary-glow" />
+
+<%-- Hero & Promotional CTA Skins --%>
+<asp:HyperLink runat="server" SkinID="HeroCtaBuy" CssClass="btn-primary-glow btn-large" />
+<asp:HyperLink runat="server" SkinID="HeroCtaRent" CssClass="btn-secondary-glow btn-large" />
+<asp:HyperLink runat="server" SkinID="CtaGhost" CssClass="btn-ghost btn-large" />
+
+<%-- Subscription Pass / Pricing Button Skins --%>
+<asp:HyperLink runat="server" SkinID="PricingBtnPrimary" CssClass="btn-primary-glow w-100" />
+<asp:HyperLink runat="server" SkinID="PricingBtnGhost" CssClass="btn-ghost w-100" />
+
+<%-- Category Filter Tab Skins --%>
+<asp:HyperLink runat="server" SkinID="FilterTab" CssClass="filter-tab" />
+<asp:HyperLink runat="server" SkinID="FilterTabActive" CssClass="filter-tab active" />
+
+<%-- Dynamic Server Label Skins --%>
+<asp:Label runat="server" SkinID="GameTitle" CssClass="game-card-title" />
+<asp:Label runat="server" SkinID="CategoryTag" CssClass="game-tag-category" />
+<asp:Label runat="server" SkinID="ScoreBadge" CssClass="game-badge-score" />
+<asp:Label runat="server" SkinID="PlatformBadge" CssClass="game-platform-badge" />
+<asp:Label runat="server" SkinID="DiscountPill" CssClass="discount-pill" />

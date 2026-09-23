@@ -1,0 +1,57 @@
+## ==========================================
+## Visual Studio & .NET .gitignore
+## ==========================================
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache / temporary directories
+.vs/
+.vscode/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet Packages
+*.nupkg
+packages/
+!packages/build/
+
+# Visual Studio Profiler
+*.psess
+*.vsp
+*.vspx
+
+# Microsoft Azure Publish profiles
+*.pubxml
+*.publishsettings
+
+# Database & local mdf files
+*.mdf
+*.ldf
+*.ndf
+
+# OS generated files
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Scratch & test scripts
+scratch/
